@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { FaGithub } from "react-icons/fa";
+import furn from "../../assets/furn.png";
 
 const HomeTwo = () => {
   return (
@@ -16,7 +17,7 @@ const HomeTwo = () => {
         <ImageTextDiv>
           <ImageArea>
             <a href="https://furniture-2pd7.vercel.app/">
-              <img src="" alt="image" />
+              <img src={furn} alt="image" />
             </a>
           </ImageArea>
           <TextArea>
@@ -80,6 +81,11 @@ const ImageArea = styled.div`
   background-color: #1a1a1a;
   width: 500px;
   height: 400px;
+  border-radius: 40px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
 `;
 const TextArea = styled.div`
   width: 500px;

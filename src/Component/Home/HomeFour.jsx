@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { FaGithub } from "react-icons/fa";
+import lang from "../../assets/lang.png";
 
 const HomeFour = () => {
   return (
@@ -9,7 +10,7 @@ const HomeFour = () => {
         <ImageTextDiv>
           <ImageArea>
             <a href="https://language-seven.vercel.app/">
-              <img src="" alt="Image" />
+              <img src={lang} alt="Image" />
             </a>
           </ImageArea>
           <TextArea>
@@ -72,6 +73,10 @@ const ImageArea = styled.div`
   background-color: #1a1a1a;
   width: 500px;
   height: 400px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
 `;
 const TextArea = styled.div`
   width: 500px;

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { FaGithub } from "react-icons/fa";
+import dog from "../../assets/dog.png";
 
 const HomeThree = () => {
   return (
@@ -9,7 +10,7 @@ const HomeThree = () => {
         <ImageTextDiv>
           <ImageArea>
             <a href="https://dog-wine.vercel.app/">
-              <img src="" alt="image" />
+              <img src={dog} alt="image" />
             </a>
           </ImageArea>
           <TextArea>
@@ -61,10 +62,13 @@ const Wrapper = styled.div`
 `;
 const ImageTextDiv = styled.div`
   flex-wrap: wrap;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
+  img {
+    width: 100%;
+    height: 100%;
+  }
 `;
 const ImageArea = styled.div`
   background-color: #1a1a1a;

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { FaGithub } from "react-icons/fa";
+import marv from "../../assets/marv.png";
 
 const HomeFive = () => {
   return (
@@ -9,7 +10,9 @@ const HomeFive = () => {
         <Wrapper>
           <ImageTextDiv>
             <ImageArea>
-              <img src="" alt="Image" />
+              <a href="https://movie-app-clone-smoky.vercel.app/">
+                <img src={marv} alt="Image" />
+              </a>
             </ImageArea>
             <TextArea>
               <h3>Replicated a disney movie site</h3>
@@ -30,10 +33,13 @@ const HomeFive = () => {
               <hr />
               <br />
               <Links>
-                <Link style={{ marginRight: "20px" }}>
+                <Link
+                  to="https://movie-app-clone-smoky.vercel.app/"
+                  style={{ marginRight: "20px" }}
+                >
                   <div style={{ color: "#D3E97A" }}>LIVE DEMO</div>
                 </Link>
-                <Link>
+                <Link to="https://github.com/holuwabamidele?tab=repositories">
                   <div style={{ color: "#D3E97A" }}>
                     SEE ON GITHUB <FaGithub />
                   </div>
@@ -70,6 +76,10 @@ const ImageArea = styled.div`
   background-color: #1a1a1a;
   width: 500px;
   height: 400px;
+  img {
+    width: 100%;
+    height: 100%;
+  }
 `;
 const TextArea = styled.div`
   width: 500px;
@@ -77,8 +87,6 @@ const TextArea = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    h4 {
-    }
   }
 `;
 const Links = styled.div`
