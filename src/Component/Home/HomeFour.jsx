@@ -8,13 +8,15 @@ const HomeFour = () => {
       <Wrapper>
         <ImageTextDiv>
           <ImageArea>
-            <img src="" alt="Image" />
+            <a href="https://language-seven.vercel.app/">
+              <img src="" alt="Image" />
+            </a>
           </ImageArea>
           <TextArea>
-            <h3>Replicated a disney movie site</h3>
+            <h3>Replica of a Language School</h3>
             <p>
-              The page was replicated with a colleague & the help of our
-              instructor who taught & showed us how to go about it.
+              The Language school has different people from different countries
+              to teach their language to new learner.{" "}
             </p>
             <hr />
             <main>
@@ -29,10 +31,13 @@ const HomeFour = () => {
             <hr />
             <br />
             <Links>
-              <Link style={{ marginRight: "20px" }}>
+              <Link
+                to="https://language-seven.vercel.app/"
+                style={{ marginRight: "20px" }}
+              >
                 <div style={{ color: "#D3E97A" }}>LIVE DEMO</div>
               </Link>
-              <Link>
+              <Link to="https://github.com/holuwabamidele?tab=repositories">
                 <div style={{ color: "#D3E97A" }}>
                   SEE ON GITHUB <FaGithub />
                 </div>

@@ -28,10 +28,13 @@ const HomeThree = () => {
             <hr />
             <br />
             <Links>
-              <Link style={{ marginRight: "20px" }}>
+              <Link
+                to="https://dog-wine.vercel.app/"
+                style={{ marginRight: "20px" }}
+              >
                 <div style={{ color: "#D3E97A" }}>LIVE DEMO</div>
               </Link>
-              <Link>
+              <Link to="https://github.com/holuwabamidele?tab=repositories">
                 <div style={{ color: "#D3E97A" }}>
                   SEE ON GITHUB <FaGithub />
                 </div>
