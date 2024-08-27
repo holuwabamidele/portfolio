@@ -16,7 +16,7 @@ const Project = () => {
       image: `${furn}`,
       title: "Furniture",
       description:
-        "The Furniture site showcased different types of furnitures, also aspiring furniture makers can showcase their work on the page.",
+        "The Furniture site showcasing different types of furnitures, and aspiring furniture makers can showcase their work on the page.",
       link: "https://furniture-2pd7.vercel.app/",
       git: "https://github.com/holuwabamidele/Furniture",
     },
@@ -47,7 +47,7 @@ const Project = () => {
       image: `${doc}`,
       title: "Medic",
       description:
-        "A medic site that help search fora doctor, get a consultant, make an appointment and get solution.",
+        "A medic site that help search for a doctor, get a consultant, make an appointment and get solution.",
       link: "https://doctor-ui-lilac.vercel.app/",
       git: "https://github.com/holuwabamidele/Doctor-UI",
     },
@@ -63,7 +63,7 @@ const Project = () => {
       image: `${done}`,
       title: "123 Done",
       description:
-        "Our company helps thousands of companies expand globally with unmatched speed and flexibilty",
+        "The company helps thousands of other companies expand globally with unmatched speed and flexibilty",
       link: "https://123done.vercel.app/",
       git: "https://github.com/holuwabamidele/123done",
     },
