@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const SideBar = () => {
@@ -5,9 +6,18 @@ const SideBar = () => {
     <Container>
       <Wrapper>
         <Navigation>
-          <nav>Work</nav>
-          <nav>About</nav>
-          <nav>Contact</nav>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <nav>HOME</nav>
+          </Link>
+          <Link to="/projects" style={{ textDecoration: "none" }}>
+            <nav>PROJECTS</nav>
+          </Link>
+          <Link to="/about" style={{ textDecoration: "none" }}>
+            <nav>ABOUT</nav>
+          </Link>
+          <Link style={{ textDecoration: "none" }}>
+            <nav>CONTACT</nav>
+          </Link>
         </Navigation>
       </Wrapper>
     </Container>
@@ -15,7 +25,6 @@ const SideBar = () => {
 };
 
 export default SideBar;
-
 const Container = styled.div`
   display: flex;
   justify-content: flex-end;
@@ -38,5 +47,6 @@ const Navigation = styled.div`
     cursor: pointer;
     font-size: 15px;
     margin: 10px 0px;
+    color: white;
   }
 `;

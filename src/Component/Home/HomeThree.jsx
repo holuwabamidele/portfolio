@@ -35,7 +35,7 @@ const HomeThree = () => {
               >
                 <div style={{ color: "#D3E97A" }}>LIVE DEMO</div>
               </Link>
-              <Link to="https://github.com/holuwabamidele?tab=repositories">
+              <Link to="https://github.com/holuwabamidele/Dog">
                 <div style={{ color: "#D3E97A" }}>
                   SEE ON GITHUB <FaGithub />
                 </div>
@@ -65,18 +65,22 @@ const ImageTextDiv = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+`;
+const ImageArea = styled.div`
+  background-color: #1a1a1a;
+  width: 500px;
+  height: 300px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   img {
     width: 100%;
     height: 100%;
   }
 `;
-const ImageArea = styled.div`
-  background-color: #1a1a1a;
-  width: 500px;
-  height: 400px;
-`;
 const TextArea = styled.div`
-  width: 500px;
+  width: 400px;
   main {
     display: flex;
     justify-content: space-between;

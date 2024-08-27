@@ -18,9 +18,18 @@ const Header = () => {
         </Link>
 
         <Navigation>
-          <nav>Work</nav>
-          <nav>About</nav>
-          <nav>Contact</nav>
+          <Link to="/" style={{ textDecoration: "none" }}>
+            <nav>HOME</nav>
+          </Link>
+          <Link to="/projects" style={{ textDecoration: "none" }}>
+            <nav>PROJECTS</nav>
+          </Link>
+          <Link to="/about" style={{ textDecoration: "none" }}>
+            <nav>ABOUT</nav>
+          </Link>
+          <Link style={{ textDecoration: "none" }}>
+            <nav>CONTACT</nav>
+          </Link>
         </Navigation>
         <SideNav onClick={handleToggle}>
           <RxHamburgerMenu color="white" />

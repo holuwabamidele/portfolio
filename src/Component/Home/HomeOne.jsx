@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { FaGithub } from "react-icons/fa";
-import boy from "../../assets/boy.jpg";
+import pic1 from "../../assets/pic1.jpg";
 import { SiLinktree } from "react-icons/si";
 
 const HomeOne = () => {
@@ -34,7 +34,7 @@ const HomeOne = () => {
             </Contact>
           </TextArea>
           <ImageArea>
-            <img src={boy} alt="Image" />
+            <img src={pic1} alt="Image" />
           </ImageArea>
         </Wrapper>
       </Container>
@@ -60,12 +60,11 @@ const Wrapper = styled.div`
   flex-wrap: wrap;
   color: white;
 
-  @media (max-width: 1024px) {
-    width: 80%;
+  /* @media (max-width: 1024px) {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-  }
+  } */
   @media (max-width: 768px) {
     display: flex;
     justify-content: flex-start;
@@ -77,11 +76,11 @@ const Wrapper = styled.div`
   }
 `;
 const TextArea = styled.div`
-  @media (max-width: 1024px) {
+  @media (max-width: 1124px) {
     margin-bottom: 30px;
   }
   h1 {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 60px;
     @media (max-width: 500px) {
       font-size: 30px;

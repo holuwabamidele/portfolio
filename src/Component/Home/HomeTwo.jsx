@@ -21,11 +21,10 @@ const HomeTwo = () => {
             </a>
           </ImageArea>
           <TextArea>
-            <h3>Replicated a Furniture Site</h3>
+            <h3>Furniture</h3>
             <p>
               The Furniture site showcased different types of furnitures, also
-              aspiring furniture makers can showcase their work and post on the
-              page.
+              aspiring furniture makers can showcase their work on the page.
             </p>
             <hr />
             <main>
@@ -46,7 +45,7 @@ const HomeTwo = () => {
               >
                 <div style={{ color: "#D3E97A" }}>LIVE DEMO</div>
               </Link>
-              <Link to="https://github.com/holuwabamidele?tab=repositories">
+              <Link to="https://github.com/holuwabamidele/Furniture">
                 <div style={{ color: "#D3E97A" }}>
                   SEE ON GITHUB <FaGithub />
                 </div>
@@ -72,6 +71,7 @@ const Wrapper = styled.div`
   color: white;
 `;
 const ImageTextDiv = styled.div`
+  /* background-color: red; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -80,15 +80,18 @@ const ImageTextDiv = styled.div`
 const ImageArea = styled.div`
   background-color: #1a1a1a;
   width: 500px;
-  height: 400px;
+  height: 300px;
   border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   img {
     width: 100%;
     height: 100%;
   }
 `;
 const TextArea = styled.div`
-  width: 500px;
+  width: 400px;
   main {
     display: flex;
     justify-content: space-between;

@@ -7,7 +7,10 @@ const Footer = () => {
       <Wrapper>
         <Text>
           <h1>LET US CONNECT</h1>
-          <p>Say hello at Oluwabamidele@gmail.com</p>
+          <p>
+            Say hello at{" "}
+            <a href="https://gmail.com/">Oluwabamidele1@gmail.com</a>
+          </p>
           <a href="https://github.com/holuwabamidele?tab=repositories">
             <div>
               <FaGithub style={{ color: "#d3e97a", fontSize: "20px" }} />

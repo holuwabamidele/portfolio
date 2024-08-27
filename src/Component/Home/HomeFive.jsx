@@ -39,7 +39,7 @@ const HomeFive = () => {
                 >
                   <div style={{ color: "#D3E97A" }}>LIVE DEMO</div>
                 </Link>
-                <Link to="https://github.com/holuwabamidele?tab=repositories">
+                <Link to="https://github.com/holuwabamidele/movie">
                   <div style={{ color: "#D3E97A" }}>
                     SEE ON GITHUB <FaGithub />
                   </div>
@@ -47,6 +47,9 @@ const HomeFive = () => {
               </Links>
             </TextArea>
           </ImageTextDiv>
+          <Link to="/projects">
+            <button>CHECK OTHER PROJECTS</button>
+          </Link>
         </Wrapper>
       </Container>
       <hr />
@@ -65,24 +68,39 @@ const Container = styled.div`
 const Wrapper = styled.div`
   width: 80%;
   color: white;
+  button {
+    background-color: #d3e97a;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: Sora;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+  }
 `;
 const ImageTextDiv = styled.div`
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 50px;
 `;
 const ImageArea = styled.div`
   background-color: #1a1a1a;
   width: 500px;
-  height: 400px;
+  height: 300px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   img {
     width: 100%;
     height: 100%;
   }
 `;
 const TextArea = styled.div`
-  width: 500px;
+  width: 400px;
   main {
     display: flex;
     justify-content: space-between;

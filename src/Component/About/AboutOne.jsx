@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { FaGithub } from "react-icons/fa";
-import boy from "../../assets/boy.jpg";
+import pic2 from "../../assets/pic2.jpg";
 import { SiLinktree } from "react-icons/si";
 
 const AboutOne = () => {
@@ -25,12 +25,12 @@ const AboutOne = () => {
               <div>
                 <a href="https://github.com/holuwabamidele?tab=repositories">
                   <div>
-                    <FaGithub fontSize="20px" color="#D3E97A" />
+                    <FaGithub fontSize="25px" color="#D3E97A" />
                   </div>
                 </a>
                 <a href="https://linktr.ee/bamidele9">
                   <div>
-                    <SiLinktree fontSize="20px" color="#D3E97A" />
+                    <SiLinktree fontSize="25px" color="#D3E97A" />
                   </div>
                 </a>
               </div>
@@ -38,7 +38,7 @@ const AboutOne = () => {
           </WrapperOne>
           <WrapperTwo>
             {" "}
-            <img src={boy} alt="" />
+            <img src={pic2} alt="" />
           </WrapperTwo>
           <WrapperThree>
             {" "}
@@ -86,7 +86,7 @@ const WrapperOne = styled.div`
   div {
     display: flex;
     a {
-      margin-right: 10px;
+      margin-right: 15px;
     }
   }
 `;
@@ -97,7 +97,7 @@ const WrapperTwo = styled.div`
   align-items: center;
   img {
     border-radius: 20px;
-    height: 400px;
+    height: 500px;
     width: 500px;
   }
 `;
