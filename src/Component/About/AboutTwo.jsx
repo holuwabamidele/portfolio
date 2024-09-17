@@ -8,7 +8,7 @@ const AboutTwo = () => {
           <h1>MY EXPERIENCE</h1>
           <section>
             <main>
-              <h3>TechCampus Africa</h3>
+              <h3>TechCampus by Findworka</h3>
               <h4>Apr 2024 - Aug 2024</h4>
             </main>
             <p>
